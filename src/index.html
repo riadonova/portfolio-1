@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feelings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Feelings</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ARCHIVE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CATEGORY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    PAGES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row-container banner">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="banner-1 p-5">
+                <div class="bg-white block-1 text-center">
+                    <p class="text-danger">TRAVELS</p>
+                    <h3>Where to send this summer?</h3>
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="banner-2">
+                <div class="bg-white block-2 text-left">
+                    <p class="text-danger">FOOD & LIFE</p>
+                    <h3>The best street food in the world</h3>
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 news-post">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div class="post-image" style="background-image: url(<%=require('./img/flower.png')%>)"></div>
+            <div class="post-details">
+                <div class="post-details-container">
+                    <p class="text-danger">BEAUTY</p>
+                    <h4>The Garden of Eden</h4>
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                    <hr>
+                    <div class="row container-icon">
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                chat_bubble_outline
+                            </i>
+                            Comment
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                favorite_border
+                            </i>
+                            Like
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                publish
+                            </i>
+                            Share
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="post-details">
+                <div class="post-details-container">
+                    <p class="text-danger">TRAVELS</p>
+                    <h4>The Garden of Eden</h4>
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                    <hr>
+                    <div class="row container-icon">
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                chat_bubble_outline
+                            </i>
+                            Comment
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                favorite_border
+                            </i>
+                            Like
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                publish
+                            </i>
+                            Share
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-image" style="background-image: url(<%=require('./img/toucan.png')%>)"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="post-image" style="background-image: url(<%=require('./img/cocktail.png')%>)"></div>
+            <div class="post-details">
+                <div class="post-details-container">
+                    <p class="text-danger">FOOD & LIFE</p>
+                    <h4>The Garden of Eden</h4>
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                    <hr>
+                    <div class="row container-icon">
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                chat_bubble_outline
+                            </i>
+                            Comment
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                favorite_border
+                            </i>
+                            Like
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                publish
+                            </i>
+                            Share
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="row line-end">
+</div>
+
+
+<div class="container mt-5 category-news">
+    <div class="row category-row">
+        <div class="col-sm-4">
+            <div class="category-post-image" style="background-image: url(<%=require('./img/food.png')%>)">
+                <div class="category-text"><p class="text-danger">TRAVELS</p></div>
+            </div>
+            <div class="post-details">
+                <div class="category-details-container">
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                    <h4>The Garden of Eden</h4>
+                    <hr>
+                    <div class="row container-icon">
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                chat_bubble_outline
+                            </i>
+                            Comment
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                favorite_border
+                            </i>
+                            Like
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                publish
+                            </i>
+                            Share
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="category-post-image" style="background-image: url(<%=require('./img/picnic.png')%>)">
+            <div class="category-text"><p class="text-danger">FOOD & LIFE</p></div>
+            </div>
+            <div class="post-details">
+                <div class="category-details-container">
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                    <h4>How to spend a productive weekend</h4>
+                    <hr>
+                    <div class="row container-icon">
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                chat_bubble_outline
+                            </i>
+                            Comment
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                favorite_border
+                            </i>
+                            Like
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                publish
+                            </i>
+                            Share
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="category-post-image" style="background-image: url(<%=require('./img/sea.png')%>)">
+                <div class="category-text"><p class="text-danger">BEAUTY</p></div>
+            </div>
+            <div class="post-details">
+                <div class="category-details-container">
+                    <h6>By Victoria<span class="text-black-50">/June 27, 2019</span></h6>
+                    <h4>Scenic views of the planet</h4>
+                    <hr>
+                    <div class="row container-icon">
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                chat_bubble_outline
+                            </i>
+                            Comment
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                favorite_border
+                            </i>
+                            Like
+                        </div>
+                        <div class="col-4 text-icon text-black-50">
+                            <i class="material-icons small">
+                                publish
+                            </i>
+                            Share
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

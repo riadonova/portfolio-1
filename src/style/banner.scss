@@ -1,0 +1,38 @@
+.banner-1 {
+  height: $banner-height;
+  background-image:  url('../../src/img/palm.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-2 {
+  height: $banner-height;
+  background-image:  url('../../src/img/girl.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.block-1 {
+  padding: 50px;
+  margin-top: 90%;
+  h3 {
+    margin: 10px 0 20px 0;
+  }
+  p {
+    margin: 0;
+    font-size: 11px;
+  }
+}
+
+.block-2 {
+  float: right;
+  padding: 50px;
+  margin-top: 80%;
+  h3 {
+    margin: 10px 0 20px 0;
+  }
+  p {
+    margin: 0;
+    font-size: 11px;
+  }
+}
