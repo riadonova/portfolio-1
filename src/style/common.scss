@@ -18,3 +18,15 @@ h6 {
 p, h6 {
   font-family: sans-serif;
 }
+
+.post-details {
+  position: relative;
+  min-height: 280px;
+  margin: 0 15px;
+}
+
+.post-details-container {
+  top: 0;
+  width: 100%;
+  padding: 25px;
+}

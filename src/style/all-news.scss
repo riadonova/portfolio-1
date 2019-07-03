@@ -1,0 +1,33 @@
+.all-news-text {
+  position: absolute;
+  height: 120px;
+  width: 50px;
+  padding: 50px 10px;
+  top: 0;
+  right: 0;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px;
+  p {
+    transform: rotate(-90deg);
+  }
+}
+
+.all-news-image {
+  position: relative;
+  margin: 0 15px;
+  background-size: cover;
+  min-height: 280px;
+}
+
+.all-news {
+  .post-details {
+    display: flex;
+  }
+}
+
+.all-news-details-container {
+  padding: 30px 25px 30px 0;
+  border: 1px solid ;
+  border-left: none;
+}
