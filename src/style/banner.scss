@@ -25,9 +25,10 @@
 }
 
 .block-2 {
-  float: right;
+  position: absolute;
+  right: 0;
   padding: 50px;
-  margin-top: 80%;
+  bottom: -100px;
   h3 {
     margin: 10px 0 20px 0;
   }
