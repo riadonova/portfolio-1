@@ -1,5 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -66,6 +68,7 @@ module.exports = {
 	},
 
 	output: {
+		path: __dirname + "/docs",
 		chunkFilename: '[name].js',
 		filename: '[name].js'
 	},
@@ -87,5 +90,8 @@ module.exports = {
 			name: true
 		}
 	},
-	plugins: [new HtmlWebpackPlugin({template: "./src/index.html"})]
+	plugins: [
+		new HtmlWebpackPlugin({template: "./src/index.html"}),
+		new CleanWebpackPlugin()
+	]
 };
