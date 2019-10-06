@@ -73,7 +73,7 @@ module.exports = {
 		filename: '[name].js'
 	},
 
-	mode: 'development',
+	mode: 'production',
 
 	optimization: {
 		splitChunks: {
@@ -92,6 +92,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({template: "./src/index.html"}),
-		new CleanWebpackPlugin()
+		new CleanWebpackPlugin(),
+		new UglifyJSPlugin()
 	]
 };
